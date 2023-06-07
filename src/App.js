@@ -1,7 +1,12 @@
 import './App.css';
+import { Outlet } from 'react-router-dom';
 
 function App() {
-  return <>유튜브 프로젝트</>;
+  return (
+    <>
+      <Outlet />
+    </>
+  );
 }
 
 export default App;
